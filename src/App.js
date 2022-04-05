@@ -6,6 +6,8 @@ import Estado from './Componente/Estado'
 import RenderizadoCondicional from './Componente/RederizadoCondicional'
 import RenderizadoDeElementos from './Componente/RenderizadoDeElementos'
 import {EventosES6,EventosES7, MasSobreEventos} from './Componente/Eventos'
+import ComunicacionComponentes from './Componente/ComunicacionComponentes';
+import CicloVida from './Componente/CicloVida'
 
 function App() {
   return (
@@ -42,6 +44,8 @@ function App() {
         <EventosES6 />
         <EventosES7 />
         <MasSobreEventos />
+        <ComunicacionComponentes />
+        <CicloVida />
       </header>
     </div>
   );
