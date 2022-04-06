@@ -8,6 +8,8 @@ import RenderizadoDeElementos from './Componente/RenderizadoDeElementos'
 import {EventosES6,EventosES7, MasSobreEventos} from './Componente/Eventos'
 import ComunicacionComponentes from './Componente/ComunicacionComponentes';
 import CicloVida from './Componente/CicloVida'
+import PeticionesAsincrona from './Componente/PeticionesAsincrona';
+import ContadorHooks from './Componente/ContadorHooks';
 
 function App() {
   return (
@@ -45,7 +47,10 @@ function App() {
         <EventosES7 />
         <MasSobreEventos />
         <ComunicacionComponentes />
-        <CicloVida />
+        {/* <CicloVida /> */}
+        <br />
+        <PeticionesAsincrona />
+        <ContadorHooks titulo="Seguidores"/>
       </header>
     </div>
   );
