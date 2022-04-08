@@ -10,6 +10,10 @@ import ComunicacionComponentes from './Componente/ComunicacionComponentes';
 import CicloVida from './Componente/CicloVida'
 import PeticionesAsincrona from './Componente/PeticionesAsincrona';
 import ContadorHooks from './Componente/ContadorHooks';
+import ScrollHooks from './Componente/ScrollHooks';
+import RelojHooks from './Componente/RelojHooks';
+import AjaxHooks from './Componente/AjaxHooks';
+
 
 function App() {
   return (
@@ -51,6 +55,10 @@ function App() {
         <br />
         <PeticionesAsincrona />
         <ContadorHooks titulo="Seguidores"/>
+        <ScrollHooks />
+        <RelojHooks/>
+        <AjaxHooks/>
+
       </header>
     </div>
   );
