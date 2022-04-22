@@ -16,6 +16,7 @@ import AjaxHooks from './Componente/AjaxHooks';
 import HooksPersonalizados from './Componente/HooksPersonalizados';
 import Referencias from './Componente/Referencias';
 import Formularios from './Componente/Formularios';
+import Estilos from './Componente/Estilos';
 
 function App() {
   return (
@@ -65,6 +66,7 @@ function App() {
         <Formularios/>
         <br />
         <br />
+        <Estilos/>
       </header>
     </div>
   );
